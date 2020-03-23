@@ -1,0 +1,28 @@
+header{
+    background-color: grey;
+    display: flex;
+    
+    margin: 20px;
+    padding: 30px;
+}
+
+.header_logo{
+    width: 30%;
+}
+
+.nav_search{
+    width: 40%;
+}
+
+.nav_image{
+    width: 30%;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+li{
+    float: right;
+}
