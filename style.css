@@ -82,12 +82,23 @@ article > .firstsection{
     margin-right: 5%;
 }
 
+.firstsection{
+    background-color: teal;
+}
+
 article > .secondsection {
+    float: right;
+    justify-content: flex-end;
     width: 25%;
 }
 
-.video{
-    height:15%;
+.secondsection{
+    background-color: tomato;
+}
+
+#ytplayer{
+    width: 70%;
+    height:50%;
     margin-bottom: 5px ;
 }
 
@@ -98,4 +109,6 @@ article > .secondsection {
 
 .desc {
     height: 5%;
+    margin-bottom: 5px;
 }
+
