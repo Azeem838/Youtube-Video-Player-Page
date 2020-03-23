@@ -1,26 +1,54 @@
-header{
-    background-color: grey;
+.nav_title{
+    background-color: white;
     display: flex;
-    
-    margin: 20px;
-    padding: 30px;
+    flex-flow: row wrap;
+    height: 50px;
 }
 
 .header_logo{
-    width: 30%;
+    background-color: yellow;
+    width: 35%;
+    height: 50px;
 }
 
+img{
+    width: 100px;
+    height: 50px;
+}
+
+
 .nav_search{
-    width: 40%;
+    background-color: tomato;
+    height: 50px;
+    /* padding: 10px;
+    margin: 10PX; */
+    width: 35%;
+    display: flex;
+}
+
+.nav_search > input{
+    width: 90%;
+}
+
+.nav_search > button{
+    /* height: 30px;
+    padding: 10px;
+    margin: 10px; */
+    width: 10%;
+    /* display: flex; */
 }
 
 .nav_image{
+    background-color: teal;
     width: 30%;
+    float: right;
+    height: 50px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
 }
 
 li{
