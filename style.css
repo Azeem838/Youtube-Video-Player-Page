@@ -6,7 +6,7 @@
 }
 
 .header_logo{
-    background-color: yellow;
+    background-color: white;
     width: 35%;
     height: 50px;
 }
@@ -18,7 +18,7 @@ img{
 
 
 .nav_search{
-    background-color: tomato;
+    background-color: white;
     height: 50px;
     /* padding: 10px;
     margin: 10PX; */
@@ -30,6 +30,11 @@ img{
     width: 90%;
 }
 
+input{
+    margin: 6px 0px;
+    padding-left: 6px;
+}
+
 .nav_search > button{
     /* height: 30px;
     padding: 10px;
@@ -38,8 +43,13 @@ img{
     /* display: flex; */
 }
 
+button{
+    margin: 6px 0px;
+}
+
+
 .nav_image{
-    background-color: teal;
+    background-color:white;
     width: 30%;
     float: right;
     height: 50px;
@@ -49,8 +59,43 @@ ul{
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
+    margin-right: 15px;
+}
+
+li > i{
+    font-size: 40px;
 }
 
 li{
     float: right;
+    padding:  0px 6px;
+    
+}
+
+article {
+    width: 100%;
+    margin-top: 2%;
+}
+
+article > .firstsection{
+    width: 70%;
+    margin-right: 5%;
+}
+
+article > .secondsection {
+    width: 25%;
+}
+
+.video{
+    height:15%;
+    margin-bottom: 5px ;
+}
+
+.info{
+    height: 5%;
+    margin-bottom: 5px;
+}
+
+.desc {
+    height: 5%;
 }
