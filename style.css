@@ -1,114 +1,114 @@
-.nav_title{
-    background-color: white;
-    display: flex;
-    flex-flow: row wrap;
-    height: 50px;
+/* body * {
+  border: 1px solid red;
+} */
+
+.nav_title {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  height: 50px;
 }
 
-.header_logo{
-    background-color: white;
-    width: 35%;
-    height: 50px;
+.header_logo {
+  background-color: white;
+  width: 35%;
+  height: 50px;
 }
 
-img{
-    width: 100px;
-    height: 50px;
+img {
+  width: 100px;
+  height: 50px;
 }
 
-
-.nav_search{
-    background-color: white;
-    height: 50px;
-    /* padding: 10px;
+.nav_search {
+  background-color: white;
+  height: 50px;
+  /* padding: 10px;
     margin: 10PX; */
-    width: 35%;
-    display: flex;
+  width: 35%;
+  display: flex;
 }
 
-.nav_search > input{
-    width: 90%;
+.nav_search > input {
+  width: 90%;
 }
 
-input{
-    margin: 6px 0px;
-    padding-left: 6px;
+input {
+  margin: 6px 0px;
+  padding-left: 6px;
 }
 
-.nav_search > button{
-    /* height: 30px;
+.nav_search > button {
+  /* height: 30px;
     padding: 10px;
     margin: 10px; */
-    width: 10%;
-    /* display: flex; */
+  width: 10%;
+  /* display: flex; */
 }
 
-button{
-    margin: 6px 0px;
+button {
+  margin: 6px 0px;
 }
 
-
-.nav_image{
-    background-color:white;
-    width: 30%;
-    float: right;
-    height: 50px;
+.nav_image {
+  background-color: white;
+  width: 29%;
+  float: right;
+  height: 50px;
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 15px;
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 15px;
 }
 
-li > i{
-    font-size: 40px;
+li > i {
+  font-size: 40px;
 }
 
-li{
-    float: right;
-    padding:  0px 6px;
-    
+li {
+  float: right;
+  padding: 0px 6px;
 }
 
 article {
-    width: 100%;
-    margin-top: 2%;
+  width: 100%;
+  margin-top: 2%;
 }
 
-article > .firstsection{
-    width: 70%;
-    margin-right: 5%;
+article > .firstsection {
+  width: 70%;
+  margin-right: 5%;
 }
 
-.firstsection{
-    background-color: teal;
+.firstsection {
+  background-color: teal;
 }
 
 article > .secondsection {
-    float: right;
-    justify-content: flex-end;
-    width: 25%;
+  float: right;
+  justify-content: flex-end;
+  width: 25%;
 }
 
-.secondsection{
-    background-color: tomato;
+.secondsection {
+  background-color: tomato;
 }
 
-#ytplayer{
-    width: 70%;
-    height:50%;
-    margin-bottom: 5px ;
+#ytplayer {
+  width: 70%;
+  height: 500px;
+  margin-bottom: 5px;
 }
 
-.info{
-    height: 5%;
-    margin-bottom: 5px;
+.info {
+  height: 5%;
+  margin-bottom: 5px;
 }
 
 .desc {
-    height: 5%;
-    margin-bottom: 5px;
+  height: 5%;
+  margin-bottom: 5px;
 }
-

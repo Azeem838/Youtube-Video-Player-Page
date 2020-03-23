@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Youtube Video Player Page</title>
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>  
-    <body>
+  <head>
+    <title>Youtube Video Player Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="nav_title">
+      <div class="header_logo">
+        <img src="image.png" />
+      </div>
+      <div class="nav_search">
+        <input type="text" placeholder="Search" />
+        <button type="submit">
+          <i class="large material-icons">search</i>
+        </button>
+      </div>
+      <nav class="nav_image">
+        <ul>
+          <li><i class="large material-icons">notifications</i></li>
+          <li><i class="large material-icons">switch_video</i></li>
+          <li><i class="large material-icons">apps</i></li>
+        </ul>
+      </nav>
+    </header>
 
-        <header class="nav_title">
-            <div class="header_logo">
-                <img src="image.png">
-            </div>
-            <div class="nav_search">
-                <input type="text"  placeholder="Search">
-                <button type="submit"><i class="large material-icons">search</i></button>
-            </div>
-            <nav class="nav_image">
-                <ul>
-                    <li><i class="large material-icons">notifications</i></li>
-                    <li><i class="large material-icons">switch_video</i></li>
-                    <li><i class="large material-icons">apps</i></li>
-                </ul>
-            </nav>
-        </header>
-
-        <article>
-            <section class="firstsection">
-                <iframe id="ytplayer" type="text/html" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"></iframe>
-                <div class="info">Video Info></div>
-                <div class="desc">Description</div>
-            </section>
-            <section class="secondsection">
-                <div class="sidebar"></div>
-            </section>
-            
-        </article>
-
-        
-    </body>
-
-
+    <article>
+      <section class="firstsection">
+        <iframe
+          id="ytplayer"
+          type="text/html"
+          src="https://www.youtube.com/embed/V74l_zS1x8E"
+          frameborder="0"
+        ></iframe>
+        <div class="info">Video Info></div>
+        <div class="desc">Description</div>
+      </section>
+      <section class="secondsection">
+        <div class="sidebar"></div>
+      </section>
+    </article>
+  </body>
 </html>
