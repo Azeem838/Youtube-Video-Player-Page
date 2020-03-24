@@ -11,7 +11,7 @@
 
 .header_logo {
   background-color: white;
-  width: 35%;
+  width: 25%;
   height: 50px;
 }
 
@@ -23,7 +23,7 @@ img {
 .nav_search {
   background-color: white;
   height: 50px;
-  width: 35%;
+  width: 55%;
   display: flex;
 }
 
@@ -46,7 +46,7 @@ button {
 
 .nav_image {
   background-color: white;
-  width: 29%;
+  width: 20%;
   float: right;
   height: 50px;
 }
@@ -55,7 +55,7 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 
 li > i {
