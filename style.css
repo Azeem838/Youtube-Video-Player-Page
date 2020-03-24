@@ -1,6 +1,6 @@
-body * {
+/* body * {
   border: 1px solid red;
-}
+} */
 
 .nav_title {
   background-color: white;
@@ -81,7 +81,7 @@ article {
   flex-direction: row;
 }
 
-.firstsection{
+.firstsection {
   width: 60%;
   display: flex;
   flex-direction: column;
@@ -92,26 +92,49 @@ article {
   margin-bottom: 5px;
 }
 
-.secondsection{
+.secondsection {
   width: 35%;
   height: 500px;
 }
 
-.info_detail{
+.info_detail {
   display: flex;
-  float: right;
+  height: 70px;
 }
 
-.Avator{
-  float: left;
+.ChannelName {
+  margin: 0;
 }
 
-.views{
-  
+.Avator {
+  display: flex;
+  flex-direction: row;
+  align-self: left;
 }
 
+.views {
+  margin-left: auto;
+}
 
+.aimg {
+  align-items: stretch;
+  height: 100%;
+  margin-right: 10px;
+}
 
+.Subscribe {
+  background-color: red;
+  margin: 12px 0 0 0;
+}
+
+.Subscribe > i {
+  color: white;
+}
+
+b {
+  color: white;
+  font-size: large;
+}
 
 /* article > .firstsection {
   width: 70%;
@@ -124,15 +147,13 @@ article {
 
 article > .secondsection {
   float: right;
-  /* justify-content: flex-end; */ 
-  /* width: 25%;
+  /* justify-content: flex-end; */
+/* width: 25%;
 }  */
 
 /* .secondsection {
   background-color: blue;
 } */
-
-
 
 /* .info {
   height: 5%;
