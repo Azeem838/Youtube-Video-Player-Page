@@ -27,21 +27,21 @@ img {
   display: flex;
 }
 
+input {
+  margin: 6px 0;
+  padding-left: 6px;
+}
+
 .nav_search > input {
   width: 90%;
 }
 
-input {
-  margin: 6px 0px;
-  padding-left: 6px;
+button {
+  margin: 6px 0;
 }
 
 .nav_search > button {
   width: 10%;
-}
-
-button {
-  margin: 6px 0px;
 }
 
 .nav_image {
@@ -64,7 +64,7 @@ li > i {
 
 li {
   float: right;
-  padding: 0px 6px;
+  padding: 0 6px;
 }
 
 article {
@@ -184,4 +184,8 @@ h5 {
   width: 250px;
   height: 80%;
   margin-right: 10px;
+}
+
+.ArtHeader {
+  display: none;
 }
