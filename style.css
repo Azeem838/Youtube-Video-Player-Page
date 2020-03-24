@@ -95,6 +95,7 @@ article {
 .secondsection {
   width: 35%;
   height: 500px;
+  margin-left: 20px;
 }
 
 .info_detail {
@@ -139,11 +140,7 @@ article {
 .share {
   /* margin-top: 14px; */
   /* vertical-align: -20%;  */
-  display: flex;
-}
-
-h5 {
-  margin-bottom: -15px;
+  /* vertical-align: middle; */
 }
 
 .lns {
@@ -159,6 +156,57 @@ h5 {
 .upnext {
   display: flex;
 }
+
+.autoplay {
+  display: flex;
+  margin-left: auto;
+}
+
+.aplay {
+  margin-right: 10px;
+}
+
+.nextvid {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.nextinfo {
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.nexttitle {
+  font-weight: bold;
+}
+
+.img2 {
+  width: 250px;
+  height: 80%;
+  margin-right: 10px;
+}
+
+/* .nextchannel {
+  line-height: 0px;
+} */
+
+/* .nextviews {
+  margin: 0;
+  padding: 0;
+} */
 
 /* article > .firstsection {
   width: 70%;
