@@ -1,12 +1,12 @@
-/* body * {
+body * {
   border: 1px solid red;
-} */
+}
 
 .nav_title {
   background-color: white;
   display: flex;
   flex-flow: row wrap;
-  height: 50px;
+  height: 5%;
 }
 
 .header_logo {
@@ -76,34 +76,65 @@ li {
 article {
   width: 100%;
   margin-top: 2%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
 }
 
-article > .firstsection {
+.firstsection{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#ytplayer {
+  height: 400px;
+  margin-bottom: 5px;
+}
+
+.secondsection{
+  width: 35%;
+  height: 500px;
+}
+
+.info_detail{
+  display: flex;
+  float: right;
+}
+
+.Avator{
+  float: left;
+}
+
+.views{
+  
+}
+
+
+
+
+/* article > .firstsection {
   width: 70%;
   margin-right: 5%;
-}
+} */
 
-.firstsection {
+/* .firstsection {
   background-color: teal;
 }
 
 article > .secondsection {
   float: right;
-  justify-content: flex-end;
-  width: 25%;
-}
+  /* justify-content: flex-end; */ 
+  /* width: 25%;
+}  */
 
-.secondsection {
-  background-color: tomato;
-}
+/* .secondsection {
+  background-color: blue;
+} */
 
-#ytplayer {
-  width: 70%;
-  height: 500px;
-  margin-bottom: 5px;
-}
 
-.info {
+
+/* .info {
   height: 5%;
   margin-bottom: 5px;
 }
@@ -111,4 +142,4 @@ article > .secondsection {
 .desc {
   height: 5%;
   margin-bottom: 5px;
-}
+} */
