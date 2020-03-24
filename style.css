@@ -23,8 +23,6 @@ img {
 .nav_search {
   background-color: white;
   height: 50px;
-  /* padding: 10px;
-    margin: 10PX; */
   width: 35%;
   display: flex;
 }
@@ -39,11 +37,7 @@ input {
 }
 
 .nav_search > button {
-  /* height: 30px;
-    padding: 10px;
-    margin: 10px; */
   width: 10%;
-  /* display: flex; */
 }
 
 button {
@@ -137,15 +131,8 @@ article {
   font-size: large;
 }
 
-.share {
-  /* margin-top: 14px; */
-  /* vertical-align: -20%;  */
-  /* vertical-align: middle; */
-}
-
 .lns {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -198,41 +185,3 @@ h5 {
   height: 80%;
   margin-right: 10px;
 }
-
-/* .nextchannel {
-  line-height: 0px;
-} */
-
-/* .nextviews {
-  margin: 0;
-  padding: 0;
-} */
-
-/* article > .firstsection {
-  width: 70%;
-  margin-right: 5%;
-} */
-
-/* .firstsection {
-  background-color: teal;
-}
-
-article > .secondsection {
-  float: right;
-  /* justify-content: flex-end; */
-/* width: 25%;
-}  */
-
-/* .secondsection {
-  background-color: blue;
-} */
-
-/* .info {
-  height: 5%;
-  margin-bottom: 5px;
-}
-
-.desc {
-  height: 5%;
-  margin-bottom: 5px;
-} */
