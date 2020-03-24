@@ -2,7 +2,7 @@
 
 > This is a copy of Youtube Video Player Page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png)
 
 This is a YouTube video player page with video recommendations.
 
