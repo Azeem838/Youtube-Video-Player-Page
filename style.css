@@ -131,9 +131,33 @@ article {
   color: white;
 }
 
-b {
+.subsc {
   color: white;
   font-size: large;
+}
+
+.share {
+  /* margin-top: 14px; */
+  /* vertical-align: -20%;  */
+  display: flex;
+}
+
+h5 {
+  margin-bottom: -15px;
+}
+
+.lns {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.like {
+  margin-left: auto;
+}
+
+.upnext {
+  display: flex;
 }
 
 /* article > .firstsection {
