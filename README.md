@@ -4,7 +4,11 @@
 
 ![screenshot](./app_screenshot2.png)
 
-In this project, the major features are: 1. An embedded Video Player 2. A side-bar with recommended Videos 3. A search bar 4. Like and share buttons
+In this project, the major features are: 
+  1. An embedded Video Player 
+  2. A side-bar with recommended Videos 
+  3. A search bar 
+  4. Like and share buttons
 
 ## Built With
 
