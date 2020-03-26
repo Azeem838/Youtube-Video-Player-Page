@@ -1,73 +1,39 @@
-# Project Name
+# Youtube Video Player Page
 
-> One paragraph statement about the project.
+> This first Microverse project is based on the Embedding Images and Video section in the Curriculum which entails created a clone of the YouTube Video Player Page.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot2.png)
 
-Additional description about the project and its features.
+In this project, the major features are: 
+  1. An embedded Video Player 
+  2. A side-bar with recommended Videos 
+  3. A search bar 
+  4. Like and share buttons
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- HTML5 and CSS
+- Materialize Icons
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Azeem838](https://github.com/Azeem838)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Hillarioh](https://github.com/hillarioh)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Azeem838/Youtube-Video-Player-Page/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 

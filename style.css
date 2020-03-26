@@ -1,0 +1,191 @@
+/* body * {
+  border: 1px solid red;
+} */
+
+.nav_title {
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  height: 5%;
+}
+
+.header_logo {
+  background-color: white;
+  width: 25%;
+  height: 50px;
+}
+
+img {
+  width: 100px;
+  height: 50px;
+}
+
+.nav_search {
+  background-color: white;
+  height: 50px;
+  width: 55%;
+  display: flex;
+}
+
+input {
+  margin: 6px 0;
+  padding-left: 6px;
+}
+
+.nav_search > input {
+  width: 90%;
+}
+
+button {
+  margin: 6px 0;
+}
+
+.nav_search > button {
+  width: 10%;
+}
+
+.nav_image {
+  background-color: white;
+  width: 20%;
+  float: right;
+  height: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+li > i {
+  font-size: 40px;
+}
+
+li {
+  float: right;
+  padding: 0 6px;
+}
+
+article {
+  width: 100%;
+  margin-top: 2%;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+}
+
+.firstsection {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+#ytplayer {
+  height: 400px;
+  margin-bottom: 5px;
+}
+
+.secondsection {
+  width: 35%;
+  height: 500px;
+  margin-left: 20px;
+}
+
+.info_detail {
+  display: flex;
+  height: 70px;
+}
+
+.ChannelName {
+  margin: 0;
+}
+
+.Avator {
+  display: flex;
+  flex-direction: row;
+  align-self: left;
+}
+
+.views {
+  margin-left: auto;
+}
+
+.aimg {
+  align-items: stretch;
+  height: 100%;
+  margin-right: 10px;
+}
+
+.Subscribe {
+  background-color: red;
+  margin: 12px 0 0 0;
+}
+
+.Subscribe > i {
+  color: white;
+}
+
+.subsc {
+  color: white;
+  font-size: large;
+}
+
+.lns {
+  display: flex;
+  align-items: center;
+}
+
+.like {
+  margin-left: auto;
+}
+
+.upnext {
+  display: flex;
+}
+
+.autoplay {
+  display: flex;
+  margin-left: auto;
+}
+
+.aplay {
+  margin-right: 10px;
+}
+
+.nextvid {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.nextinfo {
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+.nexttitle {
+  font-weight: bold;
+}
+
+.img2 {
+  width: 250px;
+  height: 80%;
+  margin-right: 10px;
+}
+
+.ArtHeader {
+  display: none;
+}
